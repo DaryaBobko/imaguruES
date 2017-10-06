@@ -111,11 +111,11 @@
                 <div class="col-md-4">
                     <h2 class="text-center font-align-residency">Coworking</h2>
                     <p class="text-left content-for-residency">IMAGURU is a spirited community of international startups located in the heart of Madrid.	We are a home-base for teams based in Spain and teams based elsewhere who want to come for our pleasant winter months (or anytime).</p>
-                    <a class="btn view-button" href="#" role="button">see all plans</a>
+                    <button class="btn view-button" href="#" role="button"> <strong>see all plans</strong></button>
                 </div>
                 <div class="col-md-offset-3 col-md-3 text-left">
-                    <h3>Light</h3>
-                    <h4>3 € / Hour</h4>
+                    <h3 class="name-type">LIGHT</h3>
+                    <h4 class="price-type">3 € / Hour</h4>
                     <ul class="text-left">
                         <li>Working place</li>
                         <li>Unlimited internet</li>
@@ -134,7 +134,7 @@
                 <div class="col-md-5">
                     <h2>IT service</h2>
                     <span class="services-right-span">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ulLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim </span>
-                </div>
+                 </div>
 
                 <div class="col-md-offset-2 col-md-4">
                     <div class="text-center">
@@ -158,14 +158,12 @@
                     <div class="col-md-5">
                         <h2>Corporate Innovation</h2>
                         <ul class="list-innovation">
-                            <li>Innovative botcamps</li>
-                            <li>Design-Thinking</li>
-                            <li>Hackathons</li>
-                            <li>Study Tours</li>
-                            <li>Searching startups for corporations</li>
+                            <li><a href="" class="">Design-Thinking</a></li>
+                            <li><a href="" class="">Innovative botcamps</a></li>
+                            <li><a href="" class="">Hackathons</a></li>
+                            <li><a href="" class="">Study Tours</a></li>
+                            <li><a href="" class="">Searching startups for corporations</a></li>
                         </ul>
-
-
                     </div>
                     <div class="col-md-offset-2 col-md-4">
                         <span class="innovation-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span>
@@ -184,7 +182,7 @@
                         <div class="col-md-6 text-left imaguru-content-left">
                             <h2>Imaguru is</h2>
                             <p>a platform of education, coworking, networking and startup solutions for the local and international tech community.</p>
-                            <a class="btn view-button" href="#" role="button">Read more</a>
+                            <button class="btn view-button" href="#" role="button"> <strong>Read more</strong></button>                            
                         </div>
 
                         <div class="col-md-6 imaguru-content-right">
@@ -202,11 +200,13 @@
     <div class="push">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-left">
-                    <h2>Push the button</h2>
+                <div class="col-md-6 text-left field">
+                    <div class="push-field">
+                         <h2>Push the button</h2>
+                    </div>
                 </div>
                 <div class="col-md-6 text-right">
-                    <a class="btn cowork-with-us-button" href="#" role="button">Cowork with us</a>
+                        <button class="btn cowork-with-us-button" href="#" role="button"> <strong>Cowork with us</strong></button>                                                                        
                 </div>
             </div>
         </div>
@@ -265,38 +265,37 @@
 
 
 
-    <div class="subscribe">
+
         <div class="container-fluid">
-            <div class="row">
+               
+            <div class="row subscribe">
                 <div class="col-md-6 subscribe-news">
                     <h3>Subscribe to our news</h3>
                     <div class="form-inline">
                         
                         <input type="email" class="trasperent-input" placeholder="E-mail"/>
-                        <button class="btn cowork-with-us-button" href="#" role="button">Cowork with us</button>
+                        <button class="btn button-subscribe" href="#" role="button"><send>Subscribe</send></button>
                     </div>
-
-                    
                 </div>
 
-                <div class="col-md-6 social-networks">
+                <div class="col-md-6 social-networks text-left">
                     <h3>Find out more about us</h3>
                     <ul class="social-list">
-                        <li><a href="#"><i class="social-icons fa fa-facebook-official"></i></a></li>
-                        <li><a href="#"><i class="social-icons fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="social-icons fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="social-icons fa fa-linkedin-square"></i></a></li>
+                        <li><a href="#"><i class="social fa fa-facebook-official"></i></a></li>
+                        <li><a href="#"><i class="social fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="social fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="social fa fa-linkedin-square"></i></a></li>
                         
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
 
 
 
 
-    <div class="addres">
+
+    <div class="feedback-form">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6 map">
@@ -304,6 +303,10 @@
 
                 <div class="col-md-6 keep-in-touch">
                     <h3>Keep in touch</h3>
+                    <input type="text" class="feedback-input" placeholder="Name/Last Name"/>
+                    <input type="email" class="feedback-input" placeholder="E-mail"/>
+                    <input type="text" class="feedback-input" placeholder="How we can help you?"/>
+                    <button class="btn btn-send" href="#" role="button"><string>Send</string></button>               
 
                 </div>
             </div>
