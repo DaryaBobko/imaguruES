@@ -159,11 +159,19 @@ span, p {
 /*COWORKING PRISE*/
 
 .coworking {
-    min-height: 440px;
+color:#423D3C;
 }
-
+.plans{
+    color:#423D3C;
+    min-height: 440px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
 .content-for-residency {
     font-size: 20px;
+    margin: 25px 0px 25px 0px;
 }
 
 .view-button {
@@ -210,8 +218,24 @@ span, p {
 
 /* IT SERVICE */
 .services {
-    min-height: 400px;
+  
     background-color: #4665BB;
+}
+
+
+.service-description{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.site-description{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
     .services h2 {
@@ -225,6 +249,7 @@ span, p {
 .services-right-span {
     font-size: 20px;
     color: #ffffff;
+    margin: 25px 0px 25px 0px; 
 }
 .button-services{
     height: 50px;
@@ -266,16 +291,22 @@ span, p {
     background-image: url(../img/innovation-100.jpg);
     background-size: cover;
 }
-
+.corporate-innovation-description{
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
 .corporate-innovation {
     padding: 0;
     font-size: 16px;
-    min-height: 700px;
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 1) 100%);
 }
 
     .corporate-innovation h2 {
         color: #ffffff;
+        margin-bottom: 16%;
     }
 
 .list-innovation {
@@ -309,46 +340,65 @@ span, p {
     font-size: 20px;
 }
 
-.imaguru-is {
-    min-height: 460px;
-}
+
 
 .imaguru-is-page {
     background-image: url('../img/Asset 22-100.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
 }
 
+.imaguru-is-page > .container-fluid {
+   min-height: 460px;
+}
 
+.imaguru-is-page > .container-fluid > .row {
+    height: 100%;
+}
 
 .imaguru-content-left {
     background-color: #ffffff;
     min-height: 460px;
-    padding-top: 60px;
-    padding-left: 120px;
+}
+.imaguru-is{
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.imaguru-is > p{
+    font-size: 20px;
+    margin: 10% 0% 20% 0%;
 }
 
+.background-img{
+    padding: 0;
+    height: 100%;  
+}
+
+
 .imaguru-content-right {
+    top: 0;
     background-color: rgba(67, 62, 61, 0.6);
     min-height: 460px;
+    width: 100%;
 }
 /* PUSH THE BUTTON */
 .push {
     background-color: #F05030;
     min-height: 160px;
     color: #ffffff;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 
 .field{
     position:relativ;
-}
-
-.push-field h2{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%, -50%);
 }
 
 /* .field{
@@ -401,11 +451,13 @@ ul {
     padding-left: 0;
 }
 
-.news {
+.news > div {
     min-height: 420px;
+    height: 420px;
 }
 
-.cover-news {
+.news > div > div {
+    height: 100%;
     position: relative;
 }
 
@@ -417,15 +469,25 @@ ul {
 .img-news-event {
     background-image: url(../img/event-100.jpg);
     background-size: cover;
+    background-position-y: -275px;
+    
+}
+
+.blog-filter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    filter: opacity(60%);
 }
 
 .img-blog {
+    color:white;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(65, 60, 59, 0.6);
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -100%);
 }
 
 .succes-story {
@@ -447,11 +509,18 @@ ul {
  margin-bottom: 0px;
 }
 
-.subscribe-news {
+.subscribe > div {
     min-height: 260px;
+}
+
+.subscribe-news {
     color: #ffffff;
     background-color: #F05030;
-    padding-left: 120px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
    
 }
 .button-subscribe{
@@ -477,10 +546,12 @@ ul {
     }
 
 .social-networks {
-    min-height: 260px;
     background-color: #4665BB;
-    padding-left: 120px;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 
 }
 
@@ -504,9 +575,21 @@ ul {
     height: 440px;
 }
 
+.feedback-form > .container-fluid {
+    height: 100%;
+}
 
-/* .keep-in-touch {
-} */
+.feedback-form > .container-fluid > .row {
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+.keep-in-touch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
 
 
 
@@ -518,6 +601,7 @@ ul {
     color: #F05030;
     font-size: 16px;
     background-color: #ffffff;
+    margin-top: 30px;
 }
 
 
@@ -536,20 +620,24 @@ ul {
 }
 
 .feedback-input{
+    width: 250%;
+    margin-top: 15%;
     display: block;
     background: transparent;
     border: 0;
     border-bottom: 2px solid #E0E1E2;
+   
 }
 
 .feedback-input:focus {
     border: 0;
     border-bottom: 2px solid #E0E1E2;
     outline: none;
+    
 }
 
 .feedback-input::placeholder {
-color: #E0E1E2;
+color: rgba(67, 62, 61, 0.6);
 font-size: 16px;
 }
 
@@ -578,6 +666,8 @@ font-size: 16px;
     background: transparent;
     border: 0;
     border-bottom: 1px solid white;
+    width: 270px;
+    margin: 20px 70px 20px 0px;
 }
 
 .trasperent-input:focus {
@@ -588,6 +678,18 @@ font-size: 16px;
 
 .trasperent-input::placeholder {
     color: white;
+    font-size: 16px;
+    
+}
+
+@media (max-width: 992px) {
+    .feedback-form > .container-fluid > .row {
+        flex-direction: column;
+    }
+
+    .feedback-form > .container-fluid > .row #map {
+        height: 100%;
+    }
 }
 
 /*.imaguru-is {
