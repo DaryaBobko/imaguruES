@@ -112,7 +112,7 @@ span, p {
 
 .img-logo {
     height: 60px;
-    width: 200px;
+    width: 180px;
     display: inline-block !important;
 }
 
@@ -127,7 +127,7 @@ span, p {
 
 .about {
     padding: 0;
-    font-size: 16px;
+    color: #ffffff;
     min-height: 780px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.7)50%, rgba(0, 0, 0, 0.9) 100%);
 }
@@ -136,9 +136,19 @@ span, p {
     background-image: url(../img/hero-100.jpg);
     background-size: cover;
 }
+.achievement{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0 1rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
 
 .caption-for-about {
     color: #ffffff;
+    padding: 90px 0px 50px 0px;
 }
 
 .flex-style {
@@ -148,12 +158,28 @@ span, p {
 }
 
 
-.cont-align {
+/* .cont-align {
+    height: 780px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    flex-grow: 1;
+} */
+.description-of-statistics{
+    font-size: 24px;
+    position: absolute;
+    top: 3.11em;
+    right: 0;
+    padding-right: 1.5rem;
+    line-height: 1.3;
+    font-weight: 300;
+    max-width: 12em;
+}
+.statistics{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 160px;
+    color: rgba(240, 80, 48, 0.8);
+    font-weight: 800;
 }
 
 /*COWORKING PRISE*/
