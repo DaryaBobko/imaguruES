@@ -20,9 +20,10 @@
 .navbar-default {
     position: relative;
 }
-.align-main-nav{
-
-}
+/*.align-main-nav{
+    display:flex;
+    align-items:flex-end;
+}*/
 .navbar {
     margin-bottom: 0;
 }
