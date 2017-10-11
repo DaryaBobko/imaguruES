@@ -1,5 +1,5 @@
 ﻿@font-face {
-    font-family: Raleway;
+    font-family: 'Raleway';
     src: url(https://fonts.googleapis.com/css?family=Raleway);
 }
 
@@ -20,7 +20,9 @@
 .navbar-default {
     position: relative;
 }
+.align-main-nav{
 
+}
 .navbar {
     margin-bottom: 0;
 }
@@ -45,6 +47,16 @@
 
 .navbar-right {
     margin-right: 8.333333%;
+}
+
+.link-dropdown:hover {
+    outline: none;
+    color: #C05C4A !important;
+}
+
+.link-dropdown:active {
+    outline: none;
+    color: #F05030 !important;
 }
 
 .lang {
@@ -75,17 +87,17 @@ body {
 h2 {
     font-size: 40px;
     margin-bottom: 0px;
-    font-family: Releway;
+    font-family: Raleway;
 }
 
 h3 {
     font-size: 30px;
-    font-family: Releway;
+    font-family: Raleway;
 }
 
 h4 {
     font-size: 24px;
-    font-family: Releway;
+    font-family: Raleway;
 }
 
 span, p {
@@ -230,7 +242,7 @@ span, p {
 
 .name-type {
     color: #F05030;
-    font-weight: 400;
+    font-weight: 800;
 }
 
 .price-type {
@@ -371,21 +383,22 @@ span, p {
 
 
 
-.imaguru-is-page {
+/*.imaguru-is-page {
     background-image: url('../img/Asset 22-100.jpg');
     background-repeat: no-repeat;
     background-position: bottom;
+}*/
+
+.imaguru-is-page {
+    min-height: 460px;
 }
 
-    .imaguru-is-page > .container-fluid {
-        min-height: 460px;
+    .imaguru-is-page > .container-fluid > .row {
+        height: 100%;
     }
 
-        .imaguru-is-page > .container-fluid > .row {
-            height: 100%;
-        }
-
 .imaguru-content-left {
+    color: #433E3D;
     background-color: #ffffff;
     min-height: 460px;
 }
@@ -402,18 +415,25 @@ span, p {
         margin: 10% 0% 20% 0%;
     }
 
-.background-img {
-    padding: 0;
-    height: 100%;
-}
+/*.background-img {
+    min-height: 460px;
+
+}*/
 
 
 .imaguru-content-right {
-    top: 0;
-    background-color: rgba(67, 62, 61, 0.6);
-    min-height: 460px;
     width: 100%;
 }
+
+.content-img-right {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
 /* PUSH THE BUTTON */
 .push {
     background-color: #F05030;
@@ -709,7 +729,7 @@ ul {
 
 
 .footer {
-    height: 300px;
+    min-height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -720,6 +740,8 @@ ul {
 
 .footer-menu {
     list-style-type: none;
+    margin-bottom: 0px;
+
 }
 
     .footer-menu > li {
@@ -730,6 +752,7 @@ ul {
 .logo-icon {
     background: url("content/img/imaguruLogo.svg");
     fill: #FFFFFF;
+    width: 80%;
 }
 
 
@@ -750,6 +773,11 @@ ul {
     top: 50%;
     transform: translate(-50%, -50%);
 } */
+.align{
+        display: flex;
+    /* flex-direction: row; */
+    align-items: flex-end;
+}
 
 .trasperent-input {
     background: transparent;
