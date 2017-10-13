@@ -506,14 +506,12 @@ ul {
     padding-left: 0;
 }
 
-.news > div {
-    min-height: 420px;
-    height: 420px;
-}
-
     .news > div > div {
-        height: 100%;
         position: relative;
+    }
+
+    .news > .row > div {
+        min-height: 420px;
     }
 
 .img-news-blog {
@@ -665,18 +663,13 @@ ul {
     }
 
 
-.feedback-form {
-    height: 440px;
-}
-
-    .feedback-form > .container-fluid {
-        height: 100%;
-    }
 
         .feedback-form > .container-fluid > .row {
-            height: 100%;
             display: flex;
             align-items: stretch;
+        }
+        .feedback-form > .container-fluid > .row > div{
+            min-height: 440px;
         }
 
 .keep-in-touch {
