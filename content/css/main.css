@@ -786,8 +786,11 @@ ul {
 
 
 
-
-
+@media (min-width: 1200px) {
+    .width-logo {
+        width: 25%;
+    }
+}
 
 @media (max-width: 1200px) {
 
@@ -858,6 +861,7 @@ ul {
 
     .logo {
         padding-top: 7%;
+        width: 240px;
     }
 
     .menu-btn {
