@@ -8,6 +8,10 @@
     src: url(https://fonts.googleapis.com/css?family=Open+Sans);
 }
 
+html {
+    font-size: 10px;
+}
+
 body {
     font-family: Open Sans;
     padding: 0;
@@ -17,27 +21,27 @@ body {
 
 
 h2 {
-    font-size: 40px;
+    font-size: 4.0rem;
     margin-bottom: 0px;
     font-family: Raleway;
 }
 
 h3 {
-    font-size: 30px;
+    font-size: 3.0rem;
     font-family: Raleway;
 }
 
 h4 {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-family: Raleway;
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 2.0rem;
 }
 
 span, p {
-    font-size: 20px;
+    font-size: 2.4rem;
 }
 
 .p0 {
@@ -81,7 +85,7 @@ nav {
     }
 
         .menu li a {
-            font-size: 16px;
+            font-size: 1.6rem;
             font-family: Raleway;
             color: rgba(65, 60, 59, 0.8);
         }
@@ -125,7 +129,7 @@ nav {
 
 .dropdown-li {
     padding: 20px 0 !important;
-    font-size: 16px !important;
+    font-size: 1.6rem !important;
     border: none !important;
     border: none !important;
     border-radius: 0 !important;
@@ -185,7 +189,7 @@ nav {
     box-sizing: border-box;
     position: relative;
     padding: 0 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-bottom: 2rem;
 }
 
@@ -202,7 +206,7 @@ nav {
 
 
 .description-of-statistics {
-    font-size: 24px;
+    font-size: 2.4rem;
     position: absolute;
     top: 3.11em;
     right: 0;
@@ -214,7 +218,7 @@ nav {
 
 .statistics {
     font-family: 'Open Sans', sans-serif;
-    font-size: 160px;
+    font-size: 16.0rem;
     color: rgba(240, 80, 48, 0.6);
     font-weight: 800;
 }
@@ -243,20 +247,20 @@ nav {
     width: 180px;
     border: 3px solid #F05030;
     color: #F05030;
-    font-size: 16px;
+    font-size: 1.6rem;
     background-color: #ffffff;
 }
 
     .view-button:hover {
         color: #ffffff;
-        font-size: 16px;
+        font-size: 1.6rem;
         background-color: #F05030;
         outline: none;
     }
 
     .view-button:focus {
         color: #ffffff;
-        font-size: 16px;
+        font-size: 1.6rem;
         background-color: #F05030;
         outline: none !important;
     }
@@ -274,7 +278,7 @@ nav {
 }
 
 .coworking ul li {
-    font-size: 16px;
+    font-size: 2.0rem;
     list-style-type: none;
     margin-bottom: 16px;
 }
@@ -320,27 +324,27 @@ nav {
     width: 180px;
     border: 3px solid #ffffff;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1.6rem;
     background-color: #4665BB;
 }
 
     .button-services:hover {
         color: #4665BB;
-        font-size: 16px;
+        font-size: 1.6rem;
         background-color: #ffffff;
         outline: none;
     }
 
     .button-services:focus {
         color: #4665BB;
-        font-size: 16px;
+        font-size: 1.6rem;
         background-color: #ffffff;
         outline: none !important;
     }
 
 .services-left-span {
     font-family: Open Sans;
-    font-size: 20px;
+    font-size: 2.2rem;
     color: #ffffff;
     margin-bottom: 50px;
 }
@@ -377,7 +381,7 @@ nav {
     }
 
 .list-innovation {
-    font-size: 20px;
+    font-size: 2.2rem;
     list-style-type: none;
     color: #ffffff;
     border-bottom: none !important;
@@ -455,9 +459,9 @@ nav {
     min-height: 160px;
 }
 
-    .push > .container-fluid {
+/*.push > .container-fluid {
         padding: 0px;
-    }
+    }*/
 
 .field {
     background-color: #F05030;
@@ -474,7 +478,7 @@ nav {
 }
 
 .field {
-    position: relativ;
+    position: relative;
 }
 
 .cowork-with-us-button {
@@ -482,14 +486,14 @@ nav {
     width: 180px;
     border: 3px solid #ffffff;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1.6rem;
     background-color: #F05030;
 }
 
     .cowork-with-us-button:hover {
         background-color: #ffffff;
         color: #F05030;
-        font-size: 16px;
+        font-size: 1.6rem;
         outline: none;
     }
 
@@ -611,14 +615,14 @@ ul {
     width: 160px;
     border: 3px solid #ffffff;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 1.6rem;
     background-color: #F05030;
 }
 
     .button-subscribe:hover {
         background-color: #ffffff;
         color: #F05030;
-        font-size: 16px;
+        font-size: 1.6rem;
         outline: none;
     }
 
@@ -643,7 +647,7 @@ ul {
 }
 
 .social {
-    font-size: 30px;
+    font-size: 3.0rem;
     margin: 30px 40px 0px 0px;
     color: rgba(255, 255, 255, 0.5);
 }
@@ -677,7 +681,7 @@ ul {
     width: 160px;
     border: 3px solid #F05030;
     color: #F05030;
-    font-size: 16px;
+    font-size: 1.6rem;
     background-color: #ffffff;
     margin-top: 30px;
 }
@@ -714,7 +718,7 @@ ul {
 
     .feedback-input::placeholder {
         color: rgba(67, 62, 61, 0.6);
-        font-size: 16px;
+        font-size: 1.6rem;
     }
 
 
@@ -747,7 +751,7 @@ ul {
 }
 
 .footer p {
-    font-size: 16px;
+    font-size: 2.0rem;
 }
 
 
@@ -791,7 +795,7 @@ ul {
 
     .trasperent-input::placeholder {
         color: white;
-        font-size: 16px;
+        font-size: 1.6rem;
     }
 
 
@@ -816,8 +820,6 @@ ul {
 }
 
 
-
-/*@media (max-width: 992px)*/
 @media screen and (min-width: 768px) and (max-width : 992px) {
     .feedback-form > .container-fluid > .row {
         flex-direction: column;
@@ -833,29 +835,25 @@ ul {
     }
 
     .logo {
-        /*padding-top: 4%;*/
         width: 220px;
     }
 
     .menu-btn {
         height: 40px;
         width: 40px;
-        font-size: 30px;
+        font-size: 3.0rem;
         padding: 0 !important;
     }
 
     #top-menu {
         background-color: #fff;
         z-index: 100;
-        /*position: absolute;*/
         width: 100%;
     }
 
     .menu li a {
-        font-size: 13px;
+        font-size: 1.3rem;
         line-height: 85px;
-        /*.menu li {
-        display: block;*/
     }
 
     .succes {
@@ -869,17 +867,9 @@ ul {
     .push-field {
         margin-left: 20px;
     }
-    /*.menu li a {
-            display: block;
-        }
 }
 
-.menu-btn i {
-    font-size: 30px;
-}*/
-}
 
-/*@media (max-widht : 768px)*/
 @media screen and (min-width: 320px) and (max-width : 767px) {
     nav {
         height: 60px;
@@ -894,7 +884,7 @@ ul {
     .menu-btn {
         height: 40px;
         width: 40px;
-        font-size: 30px;
+        font-size: 3.0rem;
         padding: 0 !important;
     }
 
@@ -910,7 +900,7 @@ ul {
     }
 
     .menu-btn i {
-        font-size: 30px;
+        font-size: 3.0rem;
     }
 
     .cowork-with-us-button {
